@@ -1,0 +1,47 @@
+How to Install Git
+
+#Update your packages
+sudo apt update
+
+#Install Git in your local machine
+sudo apt install git
+
+#Configure Git user details
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+#Check Git Configuration
+git config --list
+
+#Git Status check
+git status
+
+#Folder which we use for git
+
+cd Git-Classes/ (folder which we use for git)
+git init
+
+#See previous changes using git commit 
+git commit -m "my message"
+
+#Log check
+git log
+
+#Add a remote repository
+git remote add origin https://github.com/user/my-repo.git
+
+# View commit history
+git log --oneline --graph --all
+
+
+# List all objects in the repository with their hashes
+git rev-list --objects --all
+
+# Check the type of an object
+git cat-file -t e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+
+# View the content of an object
+git cat-file -p e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+
+# Show the contents of a specific tree object
+git ls-tree 7e9bd8b9f4698ae24b5b4f1f6532515d5a1b2e77
