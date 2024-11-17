@@ -21,6 +21,9 @@ git status
 cd Git-Classes/ (folder which we use for git)
 git init
 
+#Add the file which I push to Github
+git add <file>
+
 #See previous changes using git commit 
 git commit -m "my message"
 
